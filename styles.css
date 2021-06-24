@@ -80,10 +80,28 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+/* Hero text */
  .heroText {
      width: 50%;
  }
 
  .heroText h1 {
      font-size: 50px;
+ }
+
+ .heroText button {
+     padding: 10px 20px;
+     width: 100%;
+     margin-top: 20px;
+     color: white;
+     background-color: green;
+     border: none;
+     border-radius: 4px;
+     box-shadow: 0px 0px 10px gray;
+ }
+
+ .heroText button:hover {
+     background-color: white;
+     color: green;
  }
