@@ -9,14 +9,27 @@ body {
     
 }
 
+/* TOP NAV */
+.topNav {
+    background-color: black;
+    height: 15vh;
+}
+
+/* MAIN CONTAINER */
 .mainContainer {
-  
     background-image: url("IMAGES/hero.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
-    
 }
 
+/* CONTENT CONTAINER */
+.contentContainer {
+    width: 80%;
+    background-color: black;
+    height: 100vh;
+    margin: 0px auto;
+    opacity: 0.2;
+}
