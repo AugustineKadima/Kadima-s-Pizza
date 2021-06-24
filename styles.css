@@ -125,6 +125,13 @@ body {
  }
  .galleryImages div {
      width: 30%;
+     position: relative;
+ }
+
+ .galleryImages div h3 {
+     position: absolute;
+     bottom: 20px;
+     left: 20px;
  }
  .galleryImages div img {
      width: 100%;
@@ -132,4 +139,11 @@ body {
      border-radius: 4px;
      box-shadow: 0px 0px 10px gray;
      height: 200px;
+ }
+
+ /* PIZZA SIZES CONTAINER */
+ .pizzaSizesContainer {
+     width: 80%;
+     margin: 40px auto 0px auto;
+     text-align: center;
  }
