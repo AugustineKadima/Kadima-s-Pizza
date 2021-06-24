@@ -13,6 +13,14 @@ body {
 .topNav {
     background-color: black;
     height: 15vh;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.logoImage {
+    width: 100px;
+    height: 100px;
 }
 
 /* MAIN CONTAINER */
