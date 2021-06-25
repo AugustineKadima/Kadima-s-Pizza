@@ -1,13 +1,11 @@
 
-let customerOrder = function(typeOfPizza, pizzaSize, crust,toppings, deliveryOption){
+let CustomerOrder = function(typeOfPizza, pizzaSize, crust,toppings, deliveryOption){
 
     this.typeOfPizza = typeOfPizza;
     this.pizzaSize = pizzaSize;
     this.crust = crust;
     this.toppings = toppings;
     this.deliveryOption = deliveryOption;
-    let orderArray = [this.typeOfPizza, this.pizzaSize, this.crust, this.toppings, this.deliveryOption];
-    
     
 }
 
@@ -22,6 +20,10 @@ $("button#customizeOrder").click(function(event){
     let crust = $("#crust").val();
     let toppings = $("#toppings").val();
     let deliveryOption = $("input[name='delivery']").val()
+
+    let customerOrder = new CustomerOrder(typeOfPizza, pizzaSize, crust,toppings, deliveryOption);
+
+    $(".formOutput").text(customerOrder.typeOfPizza);
 
     
 });
