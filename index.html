@@ -122,7 +122,7 @@
                 <div class="inputCollector">
                     <form action="submit">
                         <div>
-                            <label for="type  of pizza">Which type of pizza would you have?</label>
+                            <label for="type  of pizza">Which type of pizza will you have?</label>
                             <select name="pizzaTypes" id="pizzaTypes">
                                 <option value="default">Select an item</option>
                                 <option value="Neapolitan Pizza"> Neapolitan Pizza</option>
@@ -144,14 +144,35 @@
                             </select>
                         </div>
                         <div>
-                            <label for="type  of pizza">Which type of crust would you have?</label>
+                            <label for="type  of pizza">Which type of crust will you have?</label>
                             <select name="pizzaTypes" id="pizzaTypes">
                                 <option value="default">Select an item</option>
-                                <option value="default">Crispy</option>
+                                <option value="Crispy">Crispy</option>
                                 <option value="Neapolitan Pizza"> Stuffed</option>
                                 <option value="Chicago Pizza">Glutten free</option>
                             </select>
                         </div>
+                        <div>
+                            <label for="type  of pizza">Which group of toppings will you have?</label>
+                            <select name="pizzaTypes" id="pizzaTypes">
+                                <option value="default">Select an item</option>
+                                <option value="Potato, sausage, pancetta/speck/bacon">Potato, sausage, pancetta/speck/bacon</option>
+                                <option value="Black olives, anchovies, capers"> Black olives, anchovies, capers</option>
+                                <option value="Mixed sliced mushrooms and garlic">Mixed sliced mushrooms and garlic</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="delivery">Would you like us to deliver to your location?</label>
+                            <div>
+                                <input type="radio" name="delivery">
+                                <p>Yes</p>
+                            </div>
+                            <div>
+                                <input type="radio" name="delivery">
+                                <p>No</p>
+                            </div>
+                        </div>
+                        <button>Make Order</button>
                     </form>
                 </div>
             </div>
