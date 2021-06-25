@@ -167,6 +167,7 @@ body {
      background-color: rgba(26, 12, 12, 0.2);
      border: 1px solid white;
      border-radius: 4px;
+     margin-bottom: 20px;
  }
 
  .mediumPizza {
@@ -175,6 +176,7 @@ body {
      background-color: rgba(26, 12, 12, 0.2);
      border: 1px solid white;
      border-radius: 4px;
+     margin-bottom: 20px;
  }
 
  .largePizza {
@@ -183,4 +185,5 @@ body {
      background-color: rgba(26, 12, 12, 0.2);
      border: 1px solid white;
      border-radius: 4px;
+     margin-bottom: 20px;
  }
