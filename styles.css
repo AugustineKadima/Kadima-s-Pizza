@@ -130,12 +130,12 @@ body {
      position: relative;
  }
 
-
  .galleryImages div h3 {
      position: absolute;
      bottom: 20px;
      left: 20px;
  }
+
  .galleryImages div img {
      width: 100%;
      border: 1px solid white;
