@@ -161,29 +161,69 @@ body {
      justify-content: space-evenly;
  }
 
+ .pizaSizes {
+     margin-top: 60px;
+ }
+
  .smallPizza {
      width: 25%;
-     height: 200px;
+     height: 250px;
      background-color: rgba(26, 12, 12, 0.2);
      border: 1px solid white;
      border-radius: 4px;
+     margin-bottom: 20px;
+ }
+
+ .smallPizza div {
+     width: 90%;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .smallPizza div img {
+     width: 100%;
+     margin-top: -50px;
      margin-bottom: 20px;
  }
 
  .mediumPizza {
      width: 30%;
-     height: 200px;
+     height: 250px;
      background-color: rgba(26, 12, 12, 0.2);
      border: 1px solid white;
      border-radius: 4px;
      margin-bottom: 20px;
  }
 
+ .mediumPizza div {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .mediumPizza div img {
+    width: 100%;
+    margin-top: -50px;
+    margin-bottom: 20px;
+ }
+
  .largePizza {
      width: 35%;
-     height: 200px;
+     height: 250px;
      background-color: rgba(26, 12, 12, 0.2);
      border: 1px solid white;
      border-radius: 4px;
      margin-bottom: 20px;
+ }
+
+ .largePizza div {
+     width: 90%;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .largePizza div img {
+    width: 100%;
+    margin-top: -50px;
+    margin-bottom: 20px;
  }
