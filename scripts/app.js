@@ -1,4 +1,5 @@
 
+// CUSTOMER ORDER CONSTRUCTOR
 let CustomerOrder = function(typeOfPizza, pizzaSize, crust,toppings, deliveryOption){
 
     this.typeOfPizza = typeOfPizza;
@@ -21,8 +22,10 @@ $("button#customizeOrder").click(function(event){
     let toppings = $("#toppings").val();
     let deliveryOption = $("input[name='delivery']").val()
 
+    // NEW INSTANCE OF CUSTOMER OBJECT
     let customerOrder = new CustomerOrder(typeOfPizza, pizzaSize, crust,toppings, deliveryOption);
 
+    // OUTPUT
     $(".formOutput").text(customerOrder.typeOfPizza);
 
     
