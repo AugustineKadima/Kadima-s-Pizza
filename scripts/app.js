@@ -11,18 +11,13 @@ let CustomerOrder = function(typeOfPizza, pizzaSize, crust,toppings, deliveryOpt
     this.deliveryLocation = deliveryLocation;
 }
 
-// PIZZA CRUST PRICE OBJECT
-let pizzaCrustPrice = {
-    Crispy: 200, 
-    Stuffed: 220, 
-    Glutten_free: 300
-};
 
-// PLAIN PIZZA SIZE PRICE OBJECT
-let plainPizzaSizePrice = {
-    small: 500,
-    medium: 800,
-    large: 1200
+
+// KADIMA'S PIZZA
+let kadimasPizza = { 
+    name: "Kadima's Pizza",
+    pizzaSizePrice: [{small: 500}, {medium: 800}, {large: 1200}],
+    pizzaCrustPrice: [{Crispy: 200}, {Stuffed: 220}, {Glutten_free: 300}]
 }
 
 
@@ -38,6 +33,7 @@ $("button#customizeOrder").click(function(event){
     let deliveryOption = $("input[name='delivery']").val()
     let pizzaNumberTotal = parseInt($("#pizzaNumberTotal").val());
     let deliveryLocation = $("#location").val();
+    let deliveryPrice = 100;
 
     // NEW INSTANCE OF CUSTOMER OBJECT
     let customerOrder = new CustomerOrder(typeOfPizza, pizzaSize, crust, toppings, deliveryOption, pizzaNumberTotal, deliveryLocation );
