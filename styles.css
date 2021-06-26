@@ -255,7 +255,7 @@ body {
  /* CUSTOMIZED ORDERS */
  .customizedOrders {
      background-image: url("IMAGES/form-background.jpg");
-     height: 100vh;
+     height: 120vh;
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
@@ -264,7 +264,7 @@ body {
  .ordersContainer {
     width: 80%;
     background-color: rgb(20, 20, 20, 0.5);
-    height: 100vh;
+    height: 120vh;
     margin: 0px auto;
     display: flex;
     flex-direction: column;
@@ -304,10 +304,19 @@ body {
      margin-bottom: 20px;
  }
 
+ form div input[type="number"], form div input[type="text"] {
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+ }
+
+
  .deliveryOption {
      display: flex;
      align-items: center;
      margin-left: 20px;
+     margin-bottom: 10px;
  }
 
  .deliveryOption p {
