@@ -11,12 +11,19 @@ let CustomerOrder = function(typeOfPizza, pizzaSize, crust,toppings, deliveryOpt
     this.deliveryLocation = deliveryLocation;
 }
 
-// PIZZA CRUST OBJECT
+// PIZZA CRUST PRICE OBJECT
 let pizzaCrustPrice = {
     Crispy: 200, 
     Stuffed: 220, 
     Glutten_free: 300
 };
+
+// PLAIN PIZZA SIZE PRICE OBJECT
+let plainPizzaSizePrice = {
+    small: 500,
+    medium: 800,
+    large: 1200
+}
 
 
 $(document).ready(function(){
