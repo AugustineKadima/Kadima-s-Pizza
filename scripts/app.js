@@ -23,17 +23,17 @@ CustomerOrder.prototype.kadimasPizza = {
 
     pizzaCrustPrice: [
         {default: 0}, 
-        {Crispy: 200}, 
-        {Stuffed: 220}, 
-        {Glutten_free: 300}],
+        {crispy: 200}, 
+        {stuffed: 220}, 
+        {glutten_free: 300}],
 
     deliveryPrice: 100,
 
     toppingPrice: [
         {default: 0}, 
-        {Potato_sausage_bacon: 300}, 
-        {Black_olives_anchovies_capers: 500},
-        {Mixed_sliced_mushrooms_and_garlic: 700}
+        {potato_sausage_bacon: 300}, 
+        {black_olives_anchovies_capers: 500},
+        {mixed_sliced_mushrooms_and_garlic: 700}
     ]
 }
 
@@ -54,6 +54,12 @@ $("button#customizeOrder").click(function(event){
 
     // NEW INSTANCE OF CUSTOMER OBJECT
     let customerOrder = new CustomerOrder(typeOfPizza, pizzaSize, crust, toppings, deliveryOption, pizzaNumberTotal, deliveryLocation );
+
+    // PRICE CALCULATIONS
+    // For small pizza
+    if (pizzaSize == "small" && crust == "crispy" && toppings == "potato_sausage_bacon" && deliveryOption == "on"){
+        let totalPrice = 500 + 200 + 300 + 100;
+    }
 
     // OUTPUT
     $(".formOutput").text(customerOrder.kadimasPizza.pizzaCrustPrice[0].Crispy);
