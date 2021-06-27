@@ -14,9 +14,27 @@ let CustomerOrder = function(typeOfPizza, pizzaSize, crust,toppings, deliveryOpt
 // PRICING OBJECT
 CustomerOrder.prototype.kadimasPizza = { 
     name: "Kadima's Pizza",
-    pizzaSizePrice: [{small: 500}, {medium: 800}, {large: 1200}],
-    pizzaCrustPrice: [{Crispy: 200}, {Stuffed: 220}, {Glutten_free: 300}],
-    deliveryPrice: 100
+
+    pizzaSizePrice: [
+        {default: 0}, 
+        {small: 500}, 
+        {medium: 800}, 
+        {large: 1200}],
+
+    pizzaCrustPrice: [
+        {default: 0}, 
+        {Crispy: 200}, 
+        {Stuffed: 220}, 
+        {Glutten_free: 300}],
+
+    deliveryPrice: 100,
+
+    toppingPrice: [
+        {default: 0}, 
+        {Potato_sausage_bacon: 300}, 
+        {Black_olives_anchovies_capers: 500},
+        {Mixed_sliced_mushrooms_and_garlic: 700}
+    ]
 }
 
 
