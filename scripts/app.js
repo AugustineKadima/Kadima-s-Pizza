@@ -59,7 +59,7 @@ $("button#customizeOrder").click(function(event){
     // For small pizza
 
 
-    // CRISPY option
+    // CRISPY option - potato_sausage_bacon
     if (pizzaSize == "small" && crust == "crispy" && toppings == "potato_sausage_bacon" && deliveryOption == "on"){
         let totalPrice = (customerOrder.kadimasPizza.pizzaSizePrice[1].small + 
             customerOrder.kadimasPizza.pizzaCrustPrice[1].crispy + 
@@ -87,7 +87,7 @@ $("button#customizeOrder").click(function(event){
     }
 
 
-    // STUFFED option
+    // STUFFED option - potato_sausage_bacon
     if (pizzaSize == "small" && crust == "stuffed" && toppings == "potato_sausage_bacon" && deliveryOption == "on"){
         let totalPrice = (customerOrder.kadimasPizza.pizzaSizePrice[1].small + 
             customerOrder.kadimasPizza.pizzaCrustPrice[2].stuffed + 
@@ -96,7 +96,25 @@ $("button#customizeOrder").click(function(event){
         $(".formOutput").text(totalPrice);
     }
 
-    // glutten_free option
+     // STUFFED option - black_olives_anchovies_capers
+     if (pizzaSize == "small" && crust == "stuffed" && toppings == "black_olives_anchovies_capers" && deliveryOption == "on"){
+        let totalPrice = (customerOrder.kadimasPizza.pizzaSizePrice[1].small + 
+            customerOrder.kadimasPizza.pizzaCrustPrice[2].stuffed + 
+            customerOrder.kadimasPizza.toppingPrice[2].black_olives_anchovies_capers + 
+            customerOrder.kadimasPizza.deliveryPrice) * pizzaNumberTotal;
+        $(".formOutput").text(totalPrice);
+    }
+
+     // STUFFED option - mixed_sliced_mushrooms_and_garlic
+     if (pizzaSize == "small" && crust == "stuffed" && toppings == "mixed_sliced_mushrooms_and_garlic" && deliveryOption == "on"){
+        let totalPrice = (customerOrder.kadimasPizza.pizzaSizePrice[1].small + 
+            customerOrder.kadimasPizza.pizzaCrustPrice[2].stuffed + 
+            customerOrder.kadimasPizza.toppingPrice[3].mixed_sliced_mushrooms_and_garlic + 
+            customerOrder.kadimasPizza.deliveryPrice) * pizzaNumberTotal;
+        $(".formOutput").text(totalPrice);
+    }
+
+    // GLUTTEN_FREE option
     if (pizzaSize == "small" && crust == "glutten_free" && toppings == "potato_sausage_bacon" && deliveryOption == "on"){
         let totalPrice = (customerOrder.kadimasPizza.pizzaSizePrice[1].small + 
             customerOrder.kadimasPizza.pizzaCrustPrice[3].glutten_free + 
