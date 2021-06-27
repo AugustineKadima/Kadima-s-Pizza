@@ -57,7 +57,9 @@ $("button#customizeOrder").click(function(event){
 
     // PRICE CALCULATIONS
     // For small pizza
-    // crispy option
+
+
+    // CRISPY option
     if (pizzaSize == "small" && crust == "crispy" && toppings == "potato_sausage_bacon" && deliveryOption == "on"){
         let totalPrice = (customerOrder.kadimasPizza.pizzaSizePrice[1].small + 
             customerOrder.kadimasPizza.pizzaCrustPrice[1].crispy + 
@@ -66,7 +68,26 @@ $("button#customizeOrder").click(function(event){
         $(".formOutput").text(totalPrice);
     }
 
-    // stuffed option
+    // crispy black_olives_anchovies_capers
+    if (pizzaSize == "small" && crust == "crispy" && toppings == "black_olives_anchovies_capers" && deliveryOption == "on"){
+        let totalPrice = (customerOrder.kadimasPizza.pizzaSizePrice[1].small + 
+            customerOrder.kadimasPizza.pizzaCrustPrice[1].crispy + 
+            customerOrder.kadimasPizza.toppingPrice[2].black_olives_anchovies_capers + 
+            customerOrder.kadimasPizza.deliveryPrice) * pizzaNumberTotal;
+        $(".formOutput").text(totalPrice);
+    }
+
+     // crispy mixed_sliced_mushrooms_and_garlic
+     if (pizzaSize == "small" && crust == "crispy" && toppings == "mixed_sliced_mushrooms_and_garlic" && deliveryOption == "on"){
+        let totalPrice = (customerOrder.kadimasPizza.pizzaSizePrice[1].small + 
+            customerOrder.kadimasPizza.pizzaCrustPrice[1].crispy + 
+            customerOrder.kadimasPizza.toppingPrice[3].mixed_sliced_mushrooms_and_garlic + 
+            customerOrder.kadimasPizza.deliveryPrice) * pizzaNumberTotal;
+        $(".formOutput").text(totalPrice);
+    }
+
+
+    // STUFFED option
     if (pizzaSize == "small" && crust == "stuffed" && toppings == "potato_sausage_bacon" && deliveryOption == "on"){
         let totalPrice = (customerOrder.kadimasPizza.pizzaSizePrice[1].small + 
             customerOrder.kadimasPizza.pizzaCrustPrice[2].stuffed + 
