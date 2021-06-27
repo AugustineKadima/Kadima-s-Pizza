@@ -65,8 +65,15 @@ $("button#customizeOrder").click(function(event){
         $(".formOutput").text(totalPrice);
     }
 
-    // OUTPUT
-    // $(".formOutput").text(customerOrder.kadimasPizza.pizzaCrustPrice[1].crispy);
+    if (pizzaSize == "small" && crust == "stuffed" && toppings == "potato_sausage_bacon" && deliveryOption == "on"){
+        let totalPrice = (customerOrder.kadimasPizza.pizzaSizePrice[1].small + 
+            customerOrder.kadimasPizza.pizzaCrustPrice[2].stuffed + 
+            customerOrder.kadimasPizza.toppingPrice[1].potato_sausage_bacon + 
+            customerOrder.kadimasPizza.deliveryPrice) * pizzaNumberTotal;
+        $(".formOutput").text(totalPrice);
+    }
+
+    
 
     
 });
