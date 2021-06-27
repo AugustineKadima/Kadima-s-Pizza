@@ -474,7 +474,20 @@ $("button#customizeOrder").click(function(event){
             customerOrder.kadimasPizza.pizzaCrustPrice[1].crispy + 
             customerOrder.kadimasPizza.toppingPrice[1].potato_sausage_bacon + 
             customerOrder.kadimasPizza.deliveryPrice) * pizzaNumberTotal;
-        $(".formOutput").text(totalPrice);
+        
+        let orderSummary = `
+            <h2>Order Summary</h2>
+            <p>Type of Pizza: ${typeOfPizza}</p>
+            <p>Delivery location: ${deliveryLocation}</p>
+            <p>Number of orders: ${pizzaNumberTotal}</p>
+            <p>Pizza size: Large - KSh. ${customerOrder.kadimasPizza.pizzaSizePrice[3].large} </p>
+            <p>Crust: Crispy - KSh. ${customerOrder.kadimasPizza.pizzaCrustPrice[1].crispy} </p>
+            <p>Toppings: Potato, Sausage and Bacon - KSh. ${customerOrder.kadimasPizza.toppingPrice[1].potato_sausage_bacon}</p>
+            <p>Delivery: - KSh. ${customerOrder.kadimasPizza.deliveryPrice}</p>
+            <hr>
+            <p>Total: - KSh. ${totalPrice}
+            `;
+        $(".formOutput").html(orderSummary);
     }
 
     // crispy black_olives_anchovies_capers
@@ -483,7 +496,20 @@ $("button#customizeOrder").click(function(event){
             customerOrder.kadimasPizza.pizzaCrustPrice[1].crispy + 
             customerOrder.kadimasPizza.toppingPrice[2].black_olives_anchovies_capers + 
             customerOrder.kadimasPizza.deliveryPrice) * pizzaNumberTotal;
-        $(".formOutput").text(totalPrice);
+    
+        let orderSummary = `
+            <h2>Order Summary</h2>
+            <p>Type of Pizza: ${typeOfPizza}</p>
+            <p>Delivery location: ${deliveryLocation}</p>
+            <p>Number of orders: ${pizzaNumberTotal}</p>
+            <p>Pizza size: Large - KSh. ${customerOrder.kadimasPizza.pizzaSizePrice[3].large} </p>
+            <p>Crust: Crispy - KSh. ${customerOrder.kadimasPizza.pizzaCrustPrice[1].crispy} </p>
+            <p>Toppings: Black olives, anchovies and capers - KSh. ${customerOrder.kadimasPizza.toppingPrice[2].black_olives_anchovies_capers}</p>
+            <p>Delivery: - KSh. ${customerOrder.kadimasPizza.deliveryPrice}</p>
+            <hr>
+            <p>Total: - KSh. ${totalPrice}
+            `;
+        $(".formOutput").html(orderSummary);
     }
 
      // crispy mixed_sliced_mushrooms_and_garlic
@@ -492,7 +518,20 @@ $("button#customizeOrder").click(function(event){
             customerOrder.kadimasPizza.pizzaCrustPrice[1].crispy + 
             customerOrder.kadimasPizza.toppingPrice[3].mixed_sliced_mushrooms_and_garlic + 
             customerOrder.kadimasPizza.deliveryPrice) * pizzaNumberTotal;
-        $(".formOutput").text(totalPrice);
+        
+        let orderSummary = `
+            <h2>Order Summary</h2>
+            <p>Type of Pizza: ${typeOfPizza}</p>
+            <p>Delivery location: ${deliveryLocation}</p>
+            <p>Number of orders: ${pizzaNumberTotal}</p>
+            <p>Pizza size: Large - KSh. ${customerOrder.kadimasPizza.pizzaSizePrice[3].large} </p>
+            <p>Crust: Crispy - KSh. ${customerOrder.kadimasPizza.pizzaCrustPrice[1].crispy} </p>
+            <p>Toppings: Mixed sliced mushrooms and garlic - KSh. ${customerOrder.kadimasPizza.toppingPrice[3].mixed_sliced_mushrooms_and_garlic}</p>
+            <p>Delivery: - KSh. ${customerOrder.kadimasPizza.deliveryPrice}</p>
+            <hr>
+            <p>Total: - KSh. ${totalPrice}
+            `;
+        $(".formOutput").html(orderSummary);
     }
 
 
@@ -502,7 +541,20 @@ $("button#customizeOrder").click(function(event){
             customerOrder.kadimasPizza.pizzaCrustPrice[2].stuffed + 
             customerOrder.kadimasPizza.toppingPrice[1].potato_sausage_bacon + 
             customerOrder.kadimasPizza.deliveryPrice) * pizzaNumberTotal;
-        $(".formOutput").text(totalPrice);
+        
+        let orderSummary = `
+            <h2>Order Summary</h2>
+            <p>Type of Pizza: ${typeOfPizza}</p>
+            <p>Delivery location: ${deliveryLocation}</p>
+            <p>Number of orders: ${pizzaNumberTotal}</p>
+            <p>Pizza size: Large - KSh. ${customerOrder.kadimasPizza.pizzaSizePrice[3].large} </p>
+            <p>Crust: Stuffed - KSh. ${customerOrder.kadimasPizza.pizzaCrustPrice[2].stuffed} </p>
+            <p>Toppings: Potato, Sausage and Bacon - KSh. ${customerOrder.kadimasPizza.toppingPrice[1].potato_sausage_bacon}</p>
+            <p>Delivery: - KSh. ${customerOrder.kadimasPizza.deliveryPrice}</p>
+            <hr>
+            <p>Total: - KSh. ${totalPrice}
+            `;
+        $(".formOutput").html(orderSummary);
     }
 
      // STUFFED option - black_olives_anchovies_capers
@@ -511,7 +563,20 @@ $("button#customizeOrder").click(function(event){
             customerOrder.kadimasPizza.pizzaCrustPrice[2].stuffed + 
             customerOrder.kadimasPizza.toppingPrice[2].black_olives_anchovies_capers + 
             customerOrder.kadimasPizza.deliveryPrice) * pizzaNumberTotal;
-        $(".formOutput").text(totalPrice);
+    
+        let orderSummary = `
+            <h2>Order Summary</h2>
+            <p>Type of Pizza: ${typeOfPizza}</p>
+            <p>Delivery location: ${deliveryLocation}</p>
+            <p>Number of orders: ${pizzaNumberTotal}</p>
+            <p>Pizza size: Large - KSh. ${customerOrder.kadimasPizza.pizzaSizePrice[3].large} </p>
+            <p>Crust: Stuffed - KSh. ${customerOrder.kadimasPizza.pizzaCrustPrice[2].stuffed} </p>
+            <p>Toppings: Black olives, anchovies and capers - KSh. ${customerOrder.kadimasPizza.toppingPrice[2].black_olives_anchovies_capers}</p>
+            <p>Delivery: - KSh. ${customerOrder.kadimasPizza.deliveryPrice}</p>
+            <hr>
+            <p>Total: - KSh. ${totalPrice}
+            `;
+        $(".formOutput").html(orderSummary);
     }
 
      // STUFFED option - mixed_sliced_mushrooms_and_garlic
@@ -520,7 +585,21 @@ $("button#customizeOrder").click(function(event){
             customerOrder.kadimasPizza.pizzaCrustPrice[2].stuffed + 
             customerOrder.kadimasPizza.toppingPrice[3].mixed_sliced_mushrooms_and_garlic + 
             customerOrder.kadimasPizza.deliveryPrice) * pizzaNumberTotal;
-        $(".formOutput").text(totalPrice);
+        
+
+    let orderSummary = `
+        <h2>Order Summary</h2>
+        <p>Type of Pizza: ${typeOfPizza}</p>
+        <p>Delivery location: ${deliveryLocation}</p>
+        <p>Number of orders: ${pizzaNumberTotal}</p>
+        <p>Pizza size: Large - KSh. ${customerOrder.kadimasPizza.pizzaSizePrice[3].large} </p>
+        <p>Crust: Stuffed - KSh. ${customerOrder.kadimasPizza.pizzaCrustPrice[2].stuffed} </p>
+        <p>Toppings: Mixed sliced mushrooms and garlic - KSh. ${customerOrder.kadimasPizza.toppingPrice[3].mixed_sliced_mushrooms_and_garlic}</p>
+        <p>Delivery: - KSh. ${customerOrder.kadimasPizza.deliveryPrice}</p>
+        <hr>
+        <p>Total: - KSh. ${totalPrice}
+        `;
+    $(".formOutput").html(orderSummary);
     }
 
     // GLUTTEN_FREE option - potato_sausage_bacon
