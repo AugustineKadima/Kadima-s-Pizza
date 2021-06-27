@@ -80,6 +80,7 @@ $("button#customizeOrder").click(function(event){
             <p>Total: - KSh. ${totalPrice}
         `;
         $(".formOutput").html(orderSummary);
+        alert("your pizza will be delivered at " + deliveryLocation)
     }
 
     // crispy black_olives_anchovies_capers
@@ -102,6 +103,7 @@ $("button#customizeOrder").click(function(event){
             <p>Total: - KSh. ${totalPrice}
             `;
         $(".formOutput").html(orderSummary);
+        alert("your pizza will be delivered at " + deliveryLocation)
     }
 
      // crispy mixed_sliced_mushrooms_and_garlic
@@ -124,6 +126,7 @@ $("button#customizeOrder").click(function(event){
             <p>Total: - KSh. ${totalPrice}
             `;
         $(".formOutput").html(orderSummary);
+        alert("your pizza will be delivered at " + deliveryLocation)
     }
 
 
@@ -147,6 +150,7 @@ $("button#customizeOrder").click(function(event){
             <p>Total: - KSh. ${totalPrice}
             `;
         $(".formOutput").html(orderSummary);
+        alert("your pizza will be delivered at " + deliveryLocation)
     }
 
      // STUFFED option - black_olives_anchovies_capers
@@ -169,6 +173,7 @@ $("button#customizeOrder").click(function(event){
             <p>Total: - KSh. ${totalPrice}
             `;
         $(".formOutput").html(orderSummary);
+        alert("your pizza will be delivered at " + deliveryLocation)
     }
 
      // STUFFED option - mixed_sliced_mushrooms_and_garlic
@@ -191,6 +196,7 @@ $("button#customizeOrder").click(function(event){
             <p>Total: - KSh. ${totalPrice}
             `;
         $(".formOutput").html(orderSummary);
+        alert("your pizza will be delivered at " + deliveryLocation)
     }
 
     // GLUTTEN_FREE option - potato_sausage_bacon
@@ -213,6 +219,7 @@ $("button#customizeOrder").click(function(event){
             <p>Total: - KSh. ${totalPrice}
             `;
         $(".formOutput").html(orderSummary);
+        alert("your pizza will be delivered at " + deliveryLocation)
     }
 
     // GLUTTEN_FREE option - black_olives_anchovies_capers
@@ -235,6 +242,7 @@ $("button#customizeOrder").click(function(event){
             <p>Total: - KSh. ${totalPrice}
             `;
         $(".formOutput").html(orderSummary);
+        alert("your pizza will be delivered at " + deliveryLocation)
     }
 
      // GLUTTEN_FREE option - mixed_sliced_mushrooms_and_garlic
@@ -257,6 +265,7 @@ $("button#customizeOrder").click(function(event){
             <p>Total: - KSh. ${totalPrice}
             `;
         $(".formOutput").html(orderSummary);
+        alert("your pizza will be delivered at " + deliveryLocation)
     }
 
 
@@ -284,6 +293,7 @@ $("button#customizeOrder").click(function(event){
             <p>Total: - KSh. ${totalPrice}
             `;
         $(".formOutput").html(orderSummary);
+        alert("your pizza will be delivered at " + deliveryLocation)
     }
 
     // crispy black_olives_anchovies_capers
@@ -306,6 +316,7 @@ $("button#customizeOrder").click(function(event){
             <p>Total: - KSh. ${totalPrice}
             `;
         $(".formOutput").html(orderSummary);
+        alert("your pizza will be delivered at " + deliveryLocation)
     }
 
      // crispy mixed_sliced_mushrooms_and_garlic
@@ -328,6 +339,7 @@ $("button#customizeOrder").click(function(event){
             <p>Total: - KSh. ${totalPrice}
             `;
         $(".formOutput").html(orderSummary);
+        alert("your pizza will be delivered at " + deliveryLocation)
     }
 
 
@@ -352,6 +364,7 @@ $("button#customizeOrder").click(function(event){
             <p>Total: - KSh. ${totalPrice}
             `;
         $(".formOutput").html(orderSummary);
+        alert("your pizza will be delivered at " + deliveryLocation)
     }
 
      // STUFFED option - black_olives_anchovies_capers
@@ -374,6 +387,7 @@ $("button#customizeOrder").click(function(event){
             <p>Total: - KSh. ${totalPrice}
             `;
         $(".formOutput").html(orderSummary);
+        alert("your pizza will be delivered at " + deliveryLocation)
     }
 
      // STUFFED option - mixed_sliced_mushrooms_and_garlic
@@ -396,6 +410,7 @@ $("button#customizeOrder").click(function(event){
             <p>Total: - KSh. ${totalPrice}
             `;
         $(".formOutput").html(orderSummary);
+        alert("your pizza will be delivered at " + deliveryLocation)
     }
 
     // GLUTTEN_FREE option - potato_sausage_bacon
@@ -418,6 +433,7 @@ $("button#customizeOrder").click(function(event){
             <p>Total: - KSh. ${totalPrice}
             `;
         $(".formOutput").html(orderSummary);
+        alert("your pizza will be delivered at " + deliveryLocation)
     }
 
     // GLUTTEN_FREE option - black_olives_anchovies_capers
@@ -440,6 +456,7 @@ $("button#customizeOrder").click(function(event){
             <p>Total: - KSh. ${totalPrice}
             `;
         $(".formOutput").html(orderSummary);
+        alert("your pizza will be delivered at " + deliveryLocation)
     }
 
      // GLUTTEN_FREE option - mixed_sliced_mushrooms_and_garlic
@@ -462,6 +479,7 @@ $("button#customizeOrder").click(function(event){
             <p>Total: - KSh. ${totalPrice}
             `;
         $(".formOutput").html(orderSummary);
+        alert("your pizza will be delivered at " + deliveryLocation)
     }
 
 
@@ -489,6 +507,7 @@ $("button#customizeOrder").click(function(event){
             <p>Total: - KSh. ${totalPrice}
             `;
         $(".formOutput").html(orderSummary);
+        alert("your pizza will be delivered at " + deliveryLocation)
     }
 
     // crispy black_olives_anchovies_capers
@@ -511,6 +530,7 @@ $("button#customizeOrder").click(function(event){
             <p>Total: - KSh. ${totalPrice}
             `;
         $(".formOutput").html(orderSummary);
+        alert("your pizza will be delivered at " + deliveryLocation)
     }
 
      // crispy mixed_sliced_mushrooms_and_garlic
@@ -533,6 +553,7 @@ $("button#customizeOrder").click(function(event){
             <p>Total: - KSh. ${totalPrice}
             `;
         $(".formOutput").html(orderSummary);
+        alert("your pizza will be delivered at " + deliveryLocation)
     }
 
 
@@ -556,6 +577,7 @@ $("button#customizeOrder").click(function(event){
             <p>Total: - KSh. ${totalPrice}
             `;
         $(".formOutput").html(orderSummary);
+        alert("your pizza will be delivered at " + deliveryLocation)
     }
 
      // STUFFED option - black_olives_anchovies_capers
@@ -578,6 +600,7 @@ $("button#customizeOrder").click(function(event){
             <p>Total: - KSh. ${totalPrice}
             `;
         $(".formOutput").html(orderSummary);
+        alert("your pizza will be delivered at " + deliveryLocation)
     }
 
      // STUFFED option - mixed_sliced_mushrooms_and_garlic
@@ -601,6 +624,7 @@ $("button#customizeOrder").click(function(event){
         <p>Total: - KSh. ${totalPrice}
         `;
     $(".formOutput").html(orderSummary);
+    alert("your pizza will be delivered at " + deliveryLocation)
     }
 
     // GLUTTEN_FREE option - potato_sausage_bacon
@@ -623,6 +647,7 @@ $("button#customizeOrder").click(function(event){
             <p>Total: - KSh. ${totalPrice}
             `;
         $(".formOutput").html(orderSummary);
+        alert("your pizza will be delivered at " + deliveryLocation)
     }
 
     // GLUTTEN_FREE option - black_olives_anchovies_capers
@@ -645,6 +670,7 @@ $("button#customizeOrder").click(function(event){
             <p>Total: - KSh. ${totalPrice}
             `;
         $(".formOutput").html(orderSummary);
+        alert("your pizza will be delivered at " + deliveryLocation)
     }
 
      // GLUTTEN_FREE option - mixed_sliced_mushrooms_and_garlic
@@ -667,6 +693,7 @@ $("button#customizeOrder").click(function(event){
             <p>Total: - KSh. ${totalPrice}
             `;
         $(".formOutput").html(orderSummary);
+        alert("your pizza will be delivered at " + deliveryLocation)
     }
 
     
