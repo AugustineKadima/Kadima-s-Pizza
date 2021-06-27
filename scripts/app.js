@@ -65,7 +65,18 @@ $("button#customizeOrder").click(function(event){
             customerOrder.kadimasPizza.pizzaCrustPrice[1].crispy + 
             customerOrder.kadimasPizza.toppingPrice[1].potato_sausage_bacon + 
             customerOrder.kadimasPizza.deliveryPrice) * pizzaNumberTotal;
-        $(".formOutput").text(totalPrice);
+
+        let orderSummary = `
+            <h2>Order Summary</h2>
+            <p>Number of orders: ${pizzaNumberTotal}</p>
+            <p>Pizza size: Small - KSh. ${customerOrder.kadimasPizza.pizzaSizePrice[1].small} </p>
+            <p>Crust: Crispy - KSh. ${customerOrder.kadimasPizza.pizzaCrustPrice[1].crispy} </p>
+            <p>Toppings: Potato, Sausage and Bacon - KSh. ${customerOrder.kadimasPizza.toppingPrice[1].potato_sausage_bacon}</p>
+            <p>Delivery: - KSh. ${customerOrder.kadimasPizza.deliveryPrice}</p>
+            <hr>
+            <p>Total: - KSh. ${totalPrice}
+        `
+        $(".formOutput").html(orderSummary);
     }
 
     // crispy black_olives_anchovies_capers
