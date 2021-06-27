@@ -6,7 +6,7 @@
 This website will help its visitors remotely choose and customize Pizza to their liking. They can then checkout and get a summary about the order.
 ## Setup/Installation Requirements
 * Visit your browser
-* enter the following address
+* enter the following address https://augustinekadima.github.io/Kadima-s-Pizza/
 * On the website, fill in the form to customize your order
 * Checkout to order
 
