@@ -72,7 +72,7 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: auto;
     width: 100%;
     
 }
@@ -81,7 +81,9 @@ body {
 .contentContainer {
     width: 80%;
     background-color: rgb(20, 20, 20, 0.5);
-    height: 100vh;
+    height: auto;
+    padding-top: 18%;
+    padding-bottom: 15%;
     margin: 0px auto;
     display: flex;
     flex-direction: column;
