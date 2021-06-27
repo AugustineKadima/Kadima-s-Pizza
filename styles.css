@@ -176,7 +176,7 @@ body {
 
  .smallPizza {
      width: 25%;
-     height: 400px;
+     height: 300x;
      background-color: rgba(26, 12, 12, 0.2);
      border: 1px solid white;
      border-radius: 4px;
@@ -197,7 +197,7 @@ body {
 
  .mediumPizza {
      width: 30%;
-     height: 400px;
+     height: 300px;
      background-color: rgba(26, 12, 12, 0.2);
      border: 1px solid white;
      border-radius: 4px;
@@ -218,7 +218,7 @@ body {
 
  .largePizza {
      width: 35%;
-     height: 400px;
+     height: 300px;
      background-color: rgba(26, 12, 12, 0.2);
      border: 1px solid white;
      border-radius: 4px;
@@ -370,7 +370,7 @@ body {
      right: 25%;
      left: 25%;
      z-index: 2;
-     
+     display: none;
      
  }
  /* Page Footer */

@@ -52,6 +52,7 @@ $("button#customizeOrder").click(function(event){
     let deliveryLocation = $("#location").val();
     
 
+    $(".formOutput").show()
     // NEW INSTANCE OF CUSTOMER OBJECT
     let customerOrder = new CustomerOrder(typeOfPizza, pizzaSize, crust, toppings, deliveryOption, pizzaNumberTotal, deliveryLocation );
 
