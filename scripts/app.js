@@ -50,8 +50,8 @@ $("button#customizeOrder").click(function(event){
     let deliveryOption = $("input[name='delivery']").val()
     let pizzaNumberTotal = parseInt($("#pizzaNumberTotal").val());
     let deliveryLocation = $("#location").val();
+       
     
-
     $(".formOutput").show()
     // NEW INSTANCE OF CUSTOMER OBJECT
     let customerOrder = new CustomerOrder(typeOfPizza, pizzaSize, crust, toppings, deliveryOption, pizzaNumberTotal, deliveryLocation );
@@ -697,7 +697,13 @@ $("button#customizeOrder").click(function(event){
     }
 
     
-
+    
     
 });
 });
+
+$(document).ready(function(){
+    $("#radioDelivery").click(function(){
+        $("#locationDetails").show()
+    })
+})
